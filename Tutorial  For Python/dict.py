@@ -1,0 +1,10 @@
+my_dict={"key":"Value","apple":100,"Banana":150}
+print(my_dict["key"])
+my_dict["apple"]=200
+print(my_dict)
+new_dict={"key1":100,"key2":[10,20,30,"dark"],"key3":{"key9":4}}
+print(new_dict.keys())
+print(new_dict.items())
+print(new_dict.values())
+print(new_dict["key2"][3])
+print(new_dict["key3"]["key9"])
